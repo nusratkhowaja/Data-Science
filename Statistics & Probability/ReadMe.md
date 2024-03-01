@@ -272,7 +272,7 @@ groupby_user.plot.bar(title = 'Distribution of User by membership')
 
 
     
-![data_head.png](/images/persona_files/persona_16_1.png)
+![data_head.png](/persona_files/persona_16_1.png)
     
 
 
@@ -299,7 +299,7 @@ groupby_gender.plot.bar(title = 'Distribution of Trips by Gender')
 
 
     
-![data_head.png](/images/persona_files/persona_19_1.png)
+![data_head.png](/persona_files/persona_19_1.png)
     
 
 
@@ -326,7 +326,7 @@ groupby_birthyear.plot.bar(title = 'Distribution by Birth Year', figsize = (15,4
 
 
     
-![data_head.png](/images/persona_files/persona_22_1.png)
+![data_head.png](/persona_files/persona_22_1.png)
     
 
 
@@ -350,7 +350,7 @@ groupby_mil.plot.bar(title = 'Distibution of millenial user type')
 
 
     
-![data_head.png](/images/persona_files/persona_24_1.png)
+![data_head.png](/persona_files/persona_24_1.png)
     
 
 
@@ -428,7 +428,7 @@ data.groupby('starttime_date')['tripduration'].mean().plot.bar(title = 'Distribu
 
 
     
-![data_head.png](/images/persona_files/persona_36_1.png)
+![data_head.png](/persona_files/persona_36_1.png)
     
 
 
@@ -452,7 +452,7 @@ data.groupby('starttime_year')['tripduration'].mean().plot.bar(title = 'Distribu
 
 
     
-![data_head.png](/images/persona_files/persona_39_1.png)
+![data_head.png](/persona_files/persona_39_1.png)
     
 
 
@@ -474,7 +474,7 @@ data.groupby('starttime_month')['tripduration'].mean().plot.bar(title = 'Distrib
 
 
     
-![data_head.png](/images/persona_files/persona_42_1.png)
+![data_head.png](/persona_files/persona_42_1.png)
     
 
 
@@ -496,7 +496,7 @@ data.groupby('starttime_day')['tripduration'].mean().plot.bar(title = 'Distribut
 
 
     
-![data_head.png](/images/persona_files/persona_45_1.png)
+![data_head.png](/persona_files/persona_45_1.png)
     
 
 
@@ -539,7 +539,7 @@ plt.show()
 
 
     
-![data_head.png](/images/persona_files/persona_52_0.png)
+![data_head.png](/persona_files/persona_52_0.png)
     
 
 
@@ -555,7 +555,7 @@ plt.show()
 
 
     
-![data_head.png](/images/persona_files/persona_55_0.png)
+![data_head.png](/persona_files/persona_55_0.png)
     
 
 
@@ -610,7 +610,7 @@ print ('Median of trip duration: %f'%data['tripduration_mean'].median())
 
 
     
-![data_head.png](/images/persona_files/persona_62_0.png)
+![data_head.png](/persona_files/persona_62_0.png)
     
 
 
@@ -651,7 +651,7 @@ plt.show()
 
 
     
-![data_head.png](/images/persona_files/persona_66_0.png)
+![data_head.png](/persona_files/persona_66_0.png)
     
 
 
@@ -665,7 +665,7 @@ plt.show()
 
 
     
-![data_head.png](/images/persona_files/persona_68_0.png)
+![data_head.png](/persona_files/persona_68_0.png)
     
 
 
@@ -701,7 +701,7 @@ print ('Median of trip duration of males: %f'%data_males['tripduration_mean'].me
 
 
     
-![data_head.png](/images/persona_files/persona_70_1.png)
+![data_head.png](/persona_files/persona_70_1.png)
     
 
 
