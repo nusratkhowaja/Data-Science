@@ -53,6 +53,29 @@ This project will utilize Python and relevant libraries for data analysis and vi
 | birthyear | Birth year of the rider | Integer |
 
 
+## Questions and Assumptions
+
+1. **Assumption:** Short-term pass holders are likely to be new users testing the service.
+   - **Question:** How can marketing strategies be tailored to convert short-term pass holders into long-term members?
+
+2. **Assumption:** Millennial customers are more likely to be loyal to brands they like.
+   - **Question:** How can the cycle share scheme capitalize on this loyalty to increase customer retention and attract new millennial users?
+
+3. **Assumption:** Trip duration and frequency may vary based on factors such as user demographics, subscription type, and station location.
+   - **Question:** How can these variations be used to segment customers and personalize marketing efforts?
+
+4. **Assumption:** Understanding the seasonality of trip frequency and duration can help optimize operational and marketing strategies.
+   - **Question:** How can the cycle share scheme adjust pricing or promotions to align with peak usage periods?
+
+5. **Assumption:** Outliers in trip duration data may skew the mean and impact analysis.
+   - **Question:** How can the impact of outliers be minimized to provide a more accurate representation of typical trip durations?
+
+6. **Assumption:** There may be correlations between certain user characteristics (e.g., age, gender) and trip behavior.
+   - **Question:** How can these correlations be leveraged to tailor marketing messages and offerings to specific user segments?
+
+
+
+
 ## Preliminary Analysis
 
 
