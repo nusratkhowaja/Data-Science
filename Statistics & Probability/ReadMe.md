@@ -1,38 +1,36 @@
-## Data-Driven Brand Strategy for a Cycle Share Scheme
+# Data-Driven Brand Strategy for a Cycle Share Scheme
 
-**Objective:**
+## Objective
 
-This project aims to determine the brand persona for a new cycle sharing scheme in Seattle. By understanding our customer base, we can develop targeted and effective marketing strategies to improve customer retention and attract new users.
+The objective of this project is to determine the brand persona for a new cycle sharing scheme in Seattle. By understanding the customer base, we aim to develop targeted marketing strategies to improve customer retention and attract new users.
 
-**Scenario:**
+## Scenario
 
-The cycle sharing scheme offers a convenient, affordable, and environmentally friendly transportation option within the city. Currently, it operates with 500 bikes at 50 stations. Each station provides docking systems, kiosks for membership and short-term passes, and helmet rentals. Users can choose between an annual membership offering quick access and unlimited 45-minute rentals, or short-term passes granting access for 24 hours or 3 days. Bikes can be picked up and returned at any station citywide.
+The cycle sharing scheme offers a convenient, affordable, and environmentally friendly transportation option within the city. Currently, it operates with 500 bikes at 50 stations. Users can choose between an annual membership offering quick access and unlimited 45-minute rentals, or short-term passes granting access for 24 hours or 3 days. Bikes can be picked up and returned at any station citywide.
 
-**Challenge:**
+## Questions and Assumptions
 
-Despite expansion efforts, customer retention remains a concern. To optimize marketing efforts, we need a low-cost, broad-reach channel while also understanding our current customer base. This information will be crucial for designing effective marketing strategies.
+1. **Assumption:** Short-term pass holders are likely to be new users testing the service.
+   - **Question:** How can marketing strategies be tailored to convert short-term pass holders into long-term members?
 
-**Goal:**
+2. **Assumption:** Millennial customers are more likely to be loyal to brands they like.
+   - **Question:** How can the cycle share scheme capitalize on this loyalty to increase customer retention and attract new millennial users?
 
-By analyzing the available transaction history data, we will create customer personas by answering key questions such as:
+3. **Assumption:** Trip duration and frequency may vary based on factors such as user demographics, subscription type, and station location.
+   - **Question:** How can these variations be used to segment customers and personalize marketing efforts?
 
-* Which user characteristics correlate with trip duration and frequency?
-* Which age groups utilize the service the most? 
-* What are the common user demographics and their preferred subscription options?
+4. **Assumption:** Understanding the seasonality of trip frequency and duration can help optimize operational and marketing strategies.
+   - **Question:** How can the cycle share scheme adjust pricing or promotions to align with peak usage periods?
 
-**Data:**
+5. **Assumption:** Outliers in trip duration data may skew the mean and impact analysis.
+   - **Question:** How can the impact of outliers be minimized to provide a more accurate representation of typical trip durations?
 
-We will utilize a provided dataset containing transaction history information from the cycle sharing scheme.
+6. **Assumption:** There may be correlations between certain user characteristics (e.g., age, gender) and trip behavior.
+   - **Question:** How can these correlations be leveraged to tailor marketing messages and offerings to specific user segments?
 
-**Next Steps:**
+## Data and Analysis
 
-1. **Data Exploration and Cleaning:** We will explore the dataset, identify potential issues, and perform necessary cleaning steps.
-2. **Feature Engineering:** Analyze the data structure and create new features to enhance insights.
-3. **Customer Segmentation:** Use appropriate techniques like K-Means clustering to segment customers based on their characteristics and usage patterns.
-4. **Persona Development:** Based on identified segments, create detailed customer personas that capture demographics, behaviors, motivations, and needs.
-5. **Marketing Strategy Development:** Leverage the insights gained from customer personas to formulate targeted marketing strategies for improved customer retention and acquisition.
-
-This project will utilize Python and relevant libraries for data analysis and visualization.
+We utilized a dataset containing transaction history information from the cycle sharing scheme. The analysis included univariate and multivariate analyses, correlation analysis, and time series analysis to understand user behavior and demographics.
 
 
 ## Feature Dictionary for Cycle Sharing Scheme Analysis
