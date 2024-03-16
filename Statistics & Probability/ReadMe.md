@@ -8,21 +8,6 @@ The objective of this project is to determine the brand persona for a new cycle 
 
 The cycle sharing scheme offers a convenient, affordable, and environmentally friendly transportation option within the city. Currently, it operates with 500 bikes at 50 stations. Users can choose between an annual membership offering quick access and unlimited 45-minute rentals, or short-term passes granting access for 24 hours or 3 days. Bikes can be picked up and returned at any station citywide.
 
-## Assumptions
-
-1. **Assumption:** Short-term pass holders are likely to be new users testing the service.
-
-2. **Assumption:** Millennial customers are more likely to be loyal to brands they like.
-
-3. **Assumption:** Trip duration and frequency may vary based on factors such as user demographics, subscription type, and station location.
-
-4. **Assumption:** Understanding the seasonality of trip frequency and duration can help optimize operational and marketing strategies.
-
-5. **Assumption:** Outliers in trip duration data may skew the mean and impact analysis.
-
-6. **Assumption:** There may be correlations between certain user characteristics (e.g., age, gender) and trip behavior.
-
-
 ## Data and Analysis
 
 We utilized a dataset containing transaction history information from the cycle sharing scheme. The analysis included univariate and multivariate analyses, correlation analysis, and time series analysis to understand user behavior and demographics.
