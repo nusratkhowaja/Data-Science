@@ -261,7 +261,6 @@ groupby_gender.plot.bar(title = 'Distribution of Trips by Gender')
 
 
 
-    <AxesSubplot:title={'center':'Distribution of Trips by Gender'}, xlabel='gender'>
 
 
 
@@ -288,7 +287,6 @@ groupby_birthyear.plot.bar(title = 'Distribution by Birth Year', figsize = (15,4
 
 
 
-    <AxesSubplot:title={'center':'Distribution by Birth Year'}, xlabel='birthyear'>
 
 
 
@@ -312,7 +310,6 @@ groupby_mil.plot.bar(title = 'Distibution of millenial user type')
 
 
 
-    <AxesSubplot:title={'center':'Distibution of millenial user type'}, xlabel='usertype'>
 
 
 
@@ -390,7 +387,7 @@ data.groupby('starttime_date')['tripduration'].mean().plot.bar(title = 'Distribu
 
 
 
-    <AxesSubplot:title={'center':'Distribution of Trip duration by date'}, xlabel='starttime_date'>
+
 
 
 
@@ -414,7 +411,7 @@ data.groupby('starttime_year')['tripduration'].mean().plot.bar(title = 'Distribu
 
 
 
-    <AxesSubplot:title={'center':'Distribution of Trip duration by year'}, xlabel='starttime_year'>
+
 
 
 
@@ -436,7 +433,6 @@ data.groupby('starttime_month')['tripduration'].mean().plot.bar(title = 'Distrib
 
 
 
-    <AxesSubplot:title={'center':'Distribution of Trip duration by date'}, xlabel='starttime_month'>
 
 
 
@@ -458,7 +454,7 @@ data.groupby('starttime_day')['tripduration'].mean().plot.bar(title = 'Distribut
 
 
 
-    <AxesSubplot:title={'center':'Distribution of Trip duration by date'}, xlabel='starttime_day'>
+
 
 
 
