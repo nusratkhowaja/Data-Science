@@ -249,7 +249,7 @@ groupby_user.plot.bar(title = 'Distribution of User by membership')
 
 
 
-    <AxesSubplot:title={'center':'Distribution of User by membership'}, xlabel='usertype'>
+
 
 
 
