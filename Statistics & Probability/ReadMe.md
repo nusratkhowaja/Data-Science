@@ -31,39 +31,25 @@ We utilized a dataset containing transaction history information from the cycle 
 | birthyear | Birth year of the rider | Integer |
 
 ## Key Questions :
-Here are the key questions your data science project aims to answer, formulated as bullet points:
-
 1. What is the range of the data collected for the cycle sharing service?
-   - The data ranges from October 2014 up to September 2016 (three years of data).
 
 2. Is the cycle sharing service operational beyond standard business hours (9 to 5)?
-   - Determine the operational hours of the cycle sharing service.
 
 3. Do more people prefer buying short-term passes or long-term rentals?
-   - Analyze the preference for short-term passes vs. long-term rentals.
 
 4. Do more males or females use the cycle service, or do they both equally utilize it?
-   - Compare the usage of the cycle service between males and females.
 
 5. Who are the target customers for the company’s marketing message?
-   - Create an age-wise distribution of the data to better understand the demographics.
 
 6. Is the birth year field available only for "members" and not for "short-term card holders"?
-   - Validate the availability of the birth year field across different customer types.
 
 7. How does the frequency of trips vary across date and time?
-   - Convert date from string format to date-time format.
-   - Split the date-time into components (year, month, day, hour, etc.) for analysis.
 
 8. What are the mean and median durations of each trip?
-   - Calculate the mean and median trip durations.
 
 9. From which station do most of the trips originate?
-   - Identify the station with the highest trip origins to target promotional schemes.
 
 10. Does a change in age bring a change in trip duration?
-    - Analyze the correlation between age and trip duration.
-
 
 
 ## Preliminary Analysis
